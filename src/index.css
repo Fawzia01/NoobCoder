@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./Component/Assets/1000025696.jpg');
+  background-size: cover;  /* Cover the entire area */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Ensure it takes the full viewport height */
+    margin: 0; /* Remove default margin */
+  
+}
+
